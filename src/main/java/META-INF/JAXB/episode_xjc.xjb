@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este arquivo foi gerado pela Eclipse Implementation of JAXB, v3.0.2 
+Consulte https://eclipse-ee4j.github.io/jaxb-ri 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2025.10.07 às 05:36:58 PM BRT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://thuany.com.br">
+    <schemaBindings map="false">
+      <package name="br.com.thuany"/>
+    </schemaBindings>
+    <bindings scd="tns:GetCustomerDetailRequest">
+      <class ref="br.com.thuany.GetCustomerDetailRequest"/>
+    </bindings>
+    <bindings scd="tns:GetCustomerDetailResponse">
+      <class ref="br.com.thuany.GetCustomerDetailResponse"/>
+    </bindings>
+    <bindings scd="~tns:CustomerDetail">
+      <class ref="br.com.thuany.CustomerDetail"/>
+    </bindings>
+    <bindings scd="tns:GetAllCustomerResponse">
+      <class ref="br.com.thuany.GetAllCustomerResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
