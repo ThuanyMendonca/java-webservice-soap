@@ -1,0 +1,128 @@
+################################################################################
+# MAVEN / JAVA
+################################################################################
+/target/
+dependency-reduced-pom.xml
+release.properties
+pom.xml.versionsBackup
+/.flattened-pom.xml
+
+# Compilados / artefatos
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.gz
+*.tmp
+*.bak
+*~
+*.orig
+*.rej
+
+# Mantém o Maven Wrapper no repo (mesmo com *.jar ignorado)
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Relatórios Maven / testes
+/site/
+/surefire-reports/
+/failsafe-reports/
+jacoco.exec
+
+################################################################################
+# CÓDIGO GERADO (JAXB, wsimport etc.) — já fica em /target/
+################################################################################
+/target/generated-sources/
+/target/generated-test-sources/
+
+################################################################################
+# IDEs
+################################################################################
+# IntelliJ
+.idea/
+*.iml
+*.iws
+.out/
+out/
+.run/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.apt_generated/
+.factorypath
+bin/
+.target/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+################################################################################
+# SPRING BOOT / LOGS / DUMPS
+################################################################################
+logs/
+*.log
+hs_err_pid*.log
+replay_pid*.log
+*.hprof
+*.pid
+*.pid.lock
+
+################################################################################
+# BANCO H2 (arquivos locais)
+################################################################################
+*.h2.db
+*.mv.db
+*.trace.db
+
+################################################################################
+# SEGREDOS / CERTIFICADOS / VARIÁVEIS
+################################################################################
+.env
+.env.*
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+*.cer
+*.crt
+*.pkcs12
+
+# Perfis/props sensíveis (ajuste conforme seu uso)
+application-local.properties
+application-local.yml
+application-*.secrets.properties
+application-*.secrets.yml
+
+################################################################################
+# SISTEMA OPERACIONAL
+################################################################################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+# Windows
+Thumbs.db
+Desktop.ini
+
+################################################################################
+# DOCKER (se usar)
+################################################################################
+docker/*.env
+docker/**/*.log
+
