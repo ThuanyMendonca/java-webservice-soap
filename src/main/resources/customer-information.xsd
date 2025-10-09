@@ -19,6 +19,10 @@
 		</xs:complexType>
 	</xs:element>
 	
+	<xs:element name="GetAllCustomerRequest">
+		<xs:complexType></xs:complexType>
+	</xs:element>
+	
 	<xs:element name="GetAllCustomerResponse">
 		<xs:complexType>
 			<xs:sequence>
